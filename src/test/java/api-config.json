@@ -1,0 +1,56 @@
+{
+  "qa" : [
+     {
+       "name" : "transferServiceBaseAPI",
+      "endpoint" : "https://cdls.euwest1.staging.volvo.care/internal/transferservice/v1/transfer/",
+      "header" : ""
+    },
+    {
+      "name" : "transactBaseAPI",
+      "endpoint" : "https://cdls.euwest1.staging.volvo.care/ccdp/transactbackend/v4/api/",
+      "header" : ""
+    },
+    {
+      "name" : "OMBaseAPI",
+      "endpoint" : "https://internal.cdls.euwest1.staging.volvo.care/internal/ordermanager/v1/",
+      "header" : ""
+    },
+    {
+      "name" : "initialstateAPI",
+      "endpoint" : "https://cdls.euwest1.staging.volvo.care/ccdptransact/v2/app/initialState.jsonp?configurationId=",
+      "header" : ""
+    },
+    {
+      "name" : "riskAssesmentBaseAPI",
+      "endpoint" : "https://cdls.euwest1.staging.volvo.care/ccdp/riskassessment/api/v1/",
+      "header" : ""
+    }
+  ],
+  "dev" : [
+    {
+      "name" : "transferServiceBaseAPI",
+      "endpoint" : "https://cdls.uswest2.development.volvo.care/internal/transferservice/v1/transfer/",
+      "header" : ""
+    },
+    {
+      "name" : "transactBaseAPI",
+      "endpoint" : "https://cdls.uswest2.development.volvo.care/ccdp/transactbackend/v4/api/",
+      "header" : ""
+    },
+    {
+      "name" : "OMBaseAPI",
+      "endpoint" : "https://internal.cdls.uswest2.development.volvo.care/internal/ordermanager/v1/",
+      "header" : ""
+    },
+    {
+      "name" : "initialstateAPI",
+      "endpoint" : "https://cdls.uswest2.development.volvo.care/ccdptransact/v2/app/initialState.jsonp?configurationId=",
+      "header" : ""
+    },
+    {
+      "name" : "riskAssesmentBaseAPI",
+      "endpoint" : "https://cdls.uswest2.development.volvo.care/ccdp/riskassessment/api/v1/",
+      "header" : ""
+    }
+  ]
+}
